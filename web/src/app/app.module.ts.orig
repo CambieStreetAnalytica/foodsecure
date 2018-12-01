@@ -1,6 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+<<<<<<< Updated upstream
 import {MatButtonModule} from '@angular/material/button';
+=======
+// import {MatCardModule} from '@angular/material/card';
+>>>>>>> Stashed changes
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GroceriesComponent } from './groceries/groceries.component';
@@ -23,7 +29,11 @@ import { FoodbankComponent } from './foodbank/foodbank.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< Updated upstream
     MatButtonModule
+=======
+    // MatCardModule
+>>>>>>> Stashed changes
   ],
   providers: [],
   bootstrap: [AppComponent]
