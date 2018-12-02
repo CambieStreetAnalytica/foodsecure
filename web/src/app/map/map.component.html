@@ -3,7 +3,7 @@
       <agm-info-window class="info">
         AMS Food Bank
         <br>
-        <button routerLink="/groceries" mat-flat-button color="primary" class="Reserve">Reserve</button>
+        <button mat-flat-button color="{{requestColor}}" (click)="requestFood()" class="Reserve">{{requestStatus}}</button>
         <button routerLink="/ams" mat-flat-button color="primary" class="Details">Details</button>
       </agm-info-window>
     </agm-marker>

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./map.component.less']
 })
 export class MapComponent implements OnInit {
-
+  private requested = false;
   constructor() { }
 
   latitude = 51.678418;
@@ -20,7 +20,17 @@ export class MapComponent implements OnInit {
   }
 
   ngOnInit() {
+    
+  }
 
+  public requestFood(): void {
+    this.requested = true;
+  }
+  public get requestColor(): string {
+    return this.requested ? 'warn' : 'primary';
+  }
+  public get requestStatus(): string {
+    return this.requested ? 'Requested' : 'Request';
   }
 
 }
