@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GroceriesComponent } from './groceries/groceries.component';
@@ -25,9 +29,14 @@ import { AgmCoreModule } from '@agm/core';
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
+<<<<<<< HEAD
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCO41az6rDXCPiZbNFRN7ffBA_lmP1F04I'
     })
+=======
+    MatCardModule,
+    MatToolbarModule
+>>>>>>> 350f3eb264606359477d20f6d1d19d089d7f03be
   ],
   providers: [],
   bootstrap: [AppComponent]

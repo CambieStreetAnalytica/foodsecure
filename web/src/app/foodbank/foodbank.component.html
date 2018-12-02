@@ -1,7 +1,8 @@
 <div class="main">
   <div class="header">
-    <button routerLink="/groceries" mat-flat-button color="primary" class="back">Back</button>
+    <button routerLink="/groceries" mat-flat-button color="primary">Back</button>
     <h2>AMS FoodBank</h2>
+    <button mat-flat-button color="{{requestColor}}" (click)="requestFood()">{{requestStatus}}</button>
   </div>
   <div class="description">
     <div class="details">
@@ -27,8 +28,7 @@
       <p>
         If our resources are not meeting your needs, our staff will provide referrals to other Lower Mainland food banks and sources of financial assistance.
       </p>
+      <a href="https://www.ams.ubc.ca/student-services/food-bank/">Visit Our Website Here</a>
     </div>
-
-
   </div>
 </div>

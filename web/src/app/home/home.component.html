@@ -1,8 +1,25 @@
-<div class="home-header">
-    <div class="home-title">Food Secure</div>
-    <div class="home-desc">What do you need?</div>
-</div>
-<div class="action-container">
-    <button mat-flat-button routerLink="/groceries" class="grocery-btn">Groceries</button>
-    <button mat-flat-button class="meal-btn">Hot meal</button>
+<div class="home">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span class="home-title">Food Secure</span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="card-container">
+    <mat-card routerLink="/groceries">
+      <mat-card-header>
+        <mat-card-title>Groceries</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img mat-card-image src="../../assets/grocery.svg" alt="Grocery Basket">
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Hot meals</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img mat-card-image src="../../assets/meal.svg" alt="Meal">
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>
