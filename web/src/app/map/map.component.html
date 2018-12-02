@@ -1,10 +1,12 @@
-<agm-map [latitude]="49.267587" [longitude]="-123.250051" >
+<agm-map [latitude]="49.267587" [longitude]="-123.250051" [zoom]=13>
     <agm-marker [latitude]="49.267587" [longitude]="-123.250051">
-      <agm-info-window class="info">
-        AMS Food Bank
+      <agm-info-window class="window">
+        <div class="info">AMS Food Bank</div>
         <br>
+        <div class="buttons">
         <button mat-flat-button color="{{requestColor}}" (click)="requestFood()" class="Reserve">{{requestStatus}}</button>
         <button routerLink="/ams" mat-flat-button color="primary" class="Details">Details</button>
+      </div>
       </agm-info-window>
     </agm-marker>
   </agm-map>
