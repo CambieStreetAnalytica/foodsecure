@@ -5,6 +5,7 @@ import {HomeComponent} from './home/home.component';
 import {QrComponent} from "./qr/qr.component";
 import {FoodbankComponent} from "./foodbank/foodbank.component";
 
+
 const routes: Routes = [
   { path: 'main', component: HomeComponent },
   { path: 'groceries', component: GroceriesComponent },
@@ -13,7 +14,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {path: 'authorize', component: QrComponent},
-  {path: 'ams', component: FoodbankComponent}
+  {path: 'ams', component: FoodbankComponent},
 ];
 
 @NgModule({

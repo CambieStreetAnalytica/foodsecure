@@ -1,3 +1,10 @@
-<p>
-  map works!
-</p>
+<agm-map [latitude]="49.267587" [longitude]="-123.250051" >
+    <agm-marker [latitude]="49.267587" [longitude]="-123.250051">
+      <agm-info-window class="info">
+        AMS Food Bank
+        <br>
+        <button routerLink="/groceries" mat-flat-button color="primary" class="Reserve">Reserve</button>
+        <button routerLink="/ams" mat-flat-button color="primary" class="Details">Details</button>
+      </agm-info-window>
+    </agm-marker>
+  </agm-map>

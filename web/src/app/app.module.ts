@@ -9,6 +9,7 @@ import { MapComponent } from './map/map.component';
 import { QrComponent } from './qr/qr.component';
 import { AuthorizeComponent } from './authorize/authorize.component';
 import { FoodbankComponent } from './foodbank/foodbank.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,10 @@ import { FoodbankComponent } from './foodbank/foodbank.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCO41az6rDXCPiZbNFRN7ffBA_lmP1F04I'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
