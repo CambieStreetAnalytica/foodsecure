@@ -5,7 +5,7 @@
 Declan Herbertson<br> Albert Yip<br> Melvin Mathews<br> Henry Bryant
 <h2 align="center">Description</h2>
 <p align="center">
-FoodSecure is a <b>Angular Web Application</b> proof of concept built for <b>UBC Local Hack Day 2018</b> that streamlines the process of getting and receiving food from a foodbank, as well as reducing the stigma surronding those in need seeking assistance. Each user will create an account which will allow them to request food ahead of time from foodbanks. This allows the food bank to better account for the demand of any given day, as well as removing the need to provide identification or fill out any forms as the user will simply scan the generated barcode. FoodSecure also offers an interactive map of all the locations near them to recieve food and or assistance.
+FoodSecure is a <b>Angular Web Application</b> proof of concept built for <b>UBC Local Hack Day 2018</b> over the course of <b>12 hours</b> that streamlines the process of getting and receiving food from a foodbank, as well as reducing the stigma surronding those in need seeking assistance. Each user will create an account which will allow them to request food ahead of time from foodbanks. This allows the food bank to better account for the demand of any given day, as well as removing the need to provide identification or fill out any forms as the user will simply scan the generated barcode. FoodSecure also offers an interactive map of all the locations near them to recieve food and or assistance.
 </p>
 <h2 align="center">Workflow</h2>
 <p align="center">
