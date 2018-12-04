@@ -15,6 +15,8 @@ import { AuthorizeComponent } from './authorize/authorize.component';
 import { FoodbankComponent } from './foodbank/foodbank.component';
 import { AgmCoreModule } from '@agm/core';
 
+const googleKey = 'PLACE_YOUR_API_KEY_HERE';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     MatButtonModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCO41az6rDXCPiZbNFRN7ffBA_lmP1F04I'
+      apiKey: googleKey
     }),
     MatCardModule,
     MatToolbarModule
